@@ -36,7 +36,8 @@ const handleAddToCart = async (productId, quantity) =>{
       <Navbar totalItem ={cart.total_items} />
       <Cart cart ={cart} />
       <Products products={products} onAddToCart ={handleAddToCart} />
-      <h3>Check github update</h3>
+     
+     
     </div>
   )
 }
